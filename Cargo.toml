@@ -1,12 +1,5 @@
-[package]
-name = "tunny"
-version = "0.1.0"
-edition = "2024"
-
 [workspace]
 members = [
-    "server",
-    "client",
+    "tunny-server",
+    "tunny-client",
 ]
-
-[dependencies]
