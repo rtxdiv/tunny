@@ -1,3 +1,7 @@
+use tunny_server::configurator;
+
 fn main() {
-    println!("Hello, world!");
+    let mut config = configurator::Config::new();
+    config.named_domains_testdb();
+    tunny_server::run(&config);
 }
