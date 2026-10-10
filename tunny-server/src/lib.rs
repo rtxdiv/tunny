@@ -1,5 +1,6 @@
 pub mod configurator;
 pub mod storage;
+pub mod streams;
 
 pub fn run(config: &mut configurator::Config) {
     if let Some(ref mut storage) = config.named_domains_storage {

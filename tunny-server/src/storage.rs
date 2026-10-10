@@ -6,4 +6,3 @@ pub trait Storage {
     fn remove_domain(&mut self, domain: &str);
     fn change_token(&mut self, domain: &str) -> Option<String>;
 }
-
